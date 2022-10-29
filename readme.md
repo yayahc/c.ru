@@ -1,2 +1,2 @@
-#### Code Ruby for everyone
+#### Code Ruby
 ###### Hamedcuenca5@gmail.com
