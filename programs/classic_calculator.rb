@@ -1,8 +1,6 @@
 puts "Welcome to basic calculator ..."
-print "x? "
-x = gets.chomp.to_f
-print "y? "
-y = gets.chomp.to_f
+print "x? "; x = gets.chomp.to_f
+print "y? "; y = gets.chomp.to_f
 
 puts "
 1 - Make addition (+)
@@ -14,6 +12,7 @@ puts "
 
 print "What you wanna do ? "
 user_choice = gets.chomp.to_i
+c = nil
 
 if user_choice == 1
 	print "Addition : "

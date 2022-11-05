@@ -1,2 +1,5 @@
 a, b, c = 10, 20, 30
-puts a, b, c
+print "a: #{a}, b: #{b} & c: #{c}\n"
+puts "..."
+a, b, c = b, c, a
+print "a: #{a}, b: #{b} & c: #{c}\n"

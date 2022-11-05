@@ -1,2 +1,2 @@
-name = "fifu"
-puts name.upcase
+Name = "fifu"
+puts Name.upcase
