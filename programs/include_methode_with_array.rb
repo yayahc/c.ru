@@ -7,4 +7,6 @@ else
     puts 'not include'
 end
 
+puts 'plz wait ...'; sleep(2)
+
 puts "finalMessage: " + arr
