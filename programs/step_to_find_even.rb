@@ -1,0 +1,1 @@
+0.step(10, 2) { |item| puts item } #by default we have x.step(y,1)
