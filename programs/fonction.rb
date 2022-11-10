@@ -1,6 +1,8 @@
-def display
-    word = "Hello"
-    return word
+def display(count = 404)
+    word = "Error #{count}"
+    # return word
 end
 
-puts display
+# return main variable even if return keyword is not use
+puts display()
+puts display(405)
