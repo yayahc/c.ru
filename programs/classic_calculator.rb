@@ -14,22 +14,23 @@ print "What you wanna do ? "
 user_choice = gets.chomp.to_i
 c = nil
 
-if user_choice == 1
+case user_choice
+when 1
 	print "Addition : "
 	c = x + y
 	print "x + y = ", c, "\n"
 
-elsif user_choice == 2
+when 2
 	print "Substraction : "
 	c = x - y
 	print "x - y = ", c, "\n"
 
-elsif user_choice == 3
+when 3
 	print "Multiplictation : "
 	c = x * y
 	print "x * y = ", c, "\n"
 
-elsif user_choice == 4
+when 4
 	print "Division : "
 	if y == 0
 		puts "not possible pls retry"
@@ -38,5 +39,5 @@ elsif user_choice == 4
 		print "x / y = ", c, "\n"
 	end
 else 	
-	puts "no operator available for this option pls retry"
+	puts "pls retry by choosing right operator"
 end
