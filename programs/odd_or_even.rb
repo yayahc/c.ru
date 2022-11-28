@@ -6,6 +6,7 @@
 =end
 
 print "give? "; Vr = gets.chomp.to_i
+puts Vr
 if !Vr.odd?
     puts "#{Vr} is even !"
 else
